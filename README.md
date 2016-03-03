@@ -8,10 +8,8 @@ Parul Singh ([parulsingh@berkeley.edu](mailto:parulsingh@berkeley.edu))
 
 ## Demo Video
 
-See Parul Singh Demo Video (https://link_to_your_video)
+See Parul Singh Demo Video (https://youtu.be/YplzO7cG_YE)
 
 ## Screenshots
-
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
