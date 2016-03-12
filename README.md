@@ -1,6 +1,6 @@
 # PROG 02: Represent!
 
-The Represent! phone and watch allow a user to enter their zipcode or use their current location to find their representatives in Congress and Senate. The watch app shows the same information as well as Presidential election vote percentages from 2012 and 2016. 
+The Represent! phone and watch applications allow a user to enter their zipcode or use their current location to find their representatives in Congress and Senate. The watch app shows the same information as well as Presidential election vote percentages from 2012 and 2016. 
 
 ## Authors
 
