@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parulsingh.represent2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:theme="@style/AppFullScreenTheme" />
+
+        <service android:name=".PhoneToWatchService" />
+        <service
+            android:name=".PhoneListenerService"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".CongressionalActivity" />
+        <activity android:name=".DetailedActivity" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="51a59956c8ba3838b94b052f0f4eb0009c36979b" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDbsO3xnrVgyUwLZcX2YknBC_AlosiAAFo" />
+
+        <activity android:name=".HomeActivity" android:theme="@style/AppFullScreenTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

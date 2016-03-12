@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/linLayout" android:layout_margin="0dp">
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageViewPhone"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_width="75dp"-->
+        <!--android:layout_height="75dp"-->
+        <!--android:scaleType="fitXY"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Medium Text"
+        android:id="@+id/name"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center" />
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height= "2dp"
+        android:background="#000000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Medium Text"
+        android:id="@+id/party"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center" />
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+        <!--android:text="Medium Text"-->
+        <!--android:id="@+id/party"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:gravity="center" />-->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:text="More Info"
+        android:id="@+id/button" />
+
+</LinearLayout>
